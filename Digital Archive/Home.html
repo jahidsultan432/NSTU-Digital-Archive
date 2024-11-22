@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NSTU ARCHIVES</title>
+    
+    <!--Link CSS-->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="Home.html"><img src="NSTU LOGO.png" alt="NSTU" height="120px" width="120px"></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Collections.html">RESOURCES</a></li>
+                    <li><a href="contact form.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Explore here">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+           <div>
+            
+           </div> 
+           
+        </div> 
+        
+        <div class="content">
+            <h1>NSTU<br><span>Digital Archives</span></h1>
+            <p class="par">To become the center of excellence for advanced research and technology to achieve <br>sustainable development. Nakhali Science and Technology University digital Archive made <br>its presence to enrich students, faculties thrust for acquiring knowledge to the Next Level. </p>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot Password</a>
+                    </div>
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="Signup form.html">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+                    <div class="icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google"></i></a>
+                    </div>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="headings">
+        <h2>FEATURED CONTENT</h2>
+    </div>
+    <!--Slider HTML-->
+    <section class="slider_container">
+        <div class="container">
+            <div class="swiper card_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/2.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/3.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/4.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/5.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/6.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/7.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/8.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/9.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/10.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/11.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="Slider/12.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Slider HTML Ends-->
+    <!--Slider JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+         var swiper = new Swiper(".card_slider", {
+      spaceBetween: 30,
+      loop: true,
+      Speed: 1000,
+      autoplay:{
+        delay:1500,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        },
+      },
+    });
+    </script>
+    <!--Slider JS Ends-->
+    <footer class="footer">
+        Copyright &copy; 2023 Jahid Bin Sultan|| All rights reserved.
+       </footer>
+</body>
+</body>
+</html>
